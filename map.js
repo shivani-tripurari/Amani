@@ -171,7 +171,7 @@
 	        }
 	
 	        // When clicked, zoom in
-	        function clicked(d) {
+	        async function clicked(d) {
 	            var x, y, k;
 	
 	            // Compute centroid of the selected path
@@ -181,7 +181,7 @@
 	                x = centroid[0];
 	                y = centroid[1];
 	                // k = zoom.scaleExtent()[1];
-	                k = 10;
+	                k = 3;
 	                centered = d;
 	            }
 	            else {
@@ -192,12 +192,14 @@
 	            }
 	
 	            // Manually Zoom
-	            svg.transition()
-	                .duration(750)
+                    svg.transition()
+	                .duration(2000)
 	                .call(zoom.transform, d3.zoomIdentity
 	                    .translate(width / 2, height / 2)
 	                    .scale(k)
 	                    .translate(-x, -y));
+                   
+                  setTimeout(redir,2200);
 	        }
 	
 	        // create background box for zoom
@@ -233,10 +235,12 @@
                 measure = this.value;
 				renderMap();
 				renderText();
+                
             });
-	        
         }
-        
+        function redir(){
+            window.location.href = "\\country.html";
+        }
         // change factor description
         function renderText() {
 
