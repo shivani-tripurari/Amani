@@ -27,7 +27,7 @@ html,body{
 }
 .nav-container .cta{
     position: absolute;
-    top: 49%;
+    top: 51%;
     right: 4%;
 }
 .nav-container .contact-icons{
@@ -103,7 +103,7 @@ html,body{
     list-style: none;
     padding-top: 1.1rem;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 800;
     color: #00684A;
 }
 .slide-show{
@@ -136,3 +136,188 @@ html,body{
     width: 100%;
     height: 50vh;
 }
+
+
+
+
+
+
+.hero-container{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+.info-heading{
+    position: absolute;
+    top: 19%;
+    left: 14%;
+    font-size: 76px;
+}
+.info-para{
+    
+}
+.info-para h3{
+    z-index: 999;
+    position: absolute;
+    top: 52%;
+    left: 14%;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.info-para p{
+    z-index: 999;
+    width: 69%;
+    position: absolute;
+    top: 61%;
+    left: 14%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p span{
+    color: #00684A;
+    font-size: 24px;
+    font-weight: 700;
+}
+.info-btns{
+    z-index: 999;
+    position: absolute;
+    top: 77%;
+    left: 14%;    
+}
+.explore{
+    
+    color: #fff;
+    font-weight: 700;
+    height: 40px;
+    width: 112px;
+    background-color: #00684A;
+    border-radius: 50px;
+    border: 2px solid #00684A;
+    transition: all ease 0.3s;
+    font-size: 16px;
+}
+.explore:hover{
+    
+    height: 40px;
+    width: 112px;
+    background-color: #fff;
+    color: #00684A;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid #00684A; 
+}
+.know{
+    margin-left: 2rem;
+    background-color: transparent;
+    color: #00684A;
+    font-weight: 800;
+    border: none;
+    font-size: 15px;
+    transition: all ease 0.3s;
+}
+.know:hover{
+    color: #00684A;
+    font-weight: 1000;
+}
+
+.blob {
+    z-index: 999;
+    position: absolute;
+    opacity: 0.5;
+    width: 400px;
+    aspect-ratio: 1/1;
+    animation: animate 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+      alternate forwards;
+    filter: blur(40px);
+    background: linear-gradient(
+      47deg,
+      rgb(8, 198, 62) 21%,
+      rgb(9, 213, 90) 67%,
+      rgb(49, 250, 109) 81%
+    ), url("data:image/svg+xml,%3C!-- svg: first layer --%3E%3Csvg viewBox='0 0 260 260' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='7.69' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    filter: blur(3.5rem);
+  
+    /*  Optional  */
+    /*   box-shadow: inset 50px 50px 17px 0px #ff588b,
+      inset 100px 100px 17px 0px #66319f; */
+  }
+  
+  @keyframes animate {
+    0% {
+      translate: 40% -25%;
+      border-radius: 60% 40% 30% 70% / 100% 85% 92% 74%;
+    }
+    50% {
+      translate: 0% 13%;
+      border-radius: 20% 71% 47% 70% / 81% 15% 22% 54%;
+      rotate: 41deg;
+      scale: 1.15;
+    }
+    100% {
+      translate: -45% 39%;
+      border-radius: 100% 75% 92% 74% / 60% 80% 30% 70%;
+      rotate: -60deg;
+      scale: 1.05;
+    }
+  }
+
+  .slider {
+    margin-top: 164px;
+    padding: 20px;
+      
+      height: 720px;
+      margin: auto;
+      overflow:hidden;
+      position: relative;
+      width: 100%;
+  }
+      &::before,
+      &::after {
+          
+          content: "";
+          height: 400px;
+          position: absolute;
+          width: 400px;
+          z-index: 2;
+      }
+      
+      &::after {
+          right: 0;
+          top: 10%;
+          transform: rotateZ(180deg);
+      }
+  
+      &::before {
+          left: 0;
+          top: 10%;
+      }
+      
+      .slide-track {
+          animation: scroll 40s linear infinite;
+          display: flex;
+          width: calc(400px * 14);
+      }
+      
+      .slide {
+      margin-top: 124px;
+      padding: 20px;
+          height: 400px;
+          width: 400px;
+      
+      }
+    .slide img{
+      padding: 20px;
+      border-radius: 40px;
+    }
+    .slider h2{
+      padding: 12px;
+      position: absolute;
+      top: 10%;
+      left: 23%;
+      font-size: 36px;
+    }
