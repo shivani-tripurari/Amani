@@ -4,7 +4,7 @@
 
 **"Amani - United in growth, Unstoppable in progress."**
 
-Thia aims to help the **underpriviled in Afria** throug the **digital reforms** so they can bridge the gap and transform their lives💻🎯
+This aims to help the **underprivileged in Africa** throug the **digital reforms** so they can bridge the gap and transform their lives💻🎯
 
 A web application built as a project for **All in** hackathon that helps users to start **fundraising**, **donate** to underprivilaged via **money**, **resources** or **food**, and provide **mentorship to chidlren** of the African sub-continent.
 You can also get inspired by reading to the **inspirational tales** of individuals, tribes which shows **diversity of Africa** ! ✨
