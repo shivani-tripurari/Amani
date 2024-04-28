@@ -113,7 +113,7 @@
 	                return +countryObj[d.adm0_a3_is][measure];
 	            });
 	
-	            let color = d3.scaleSequential().interpolator(d3.interpolateOranges);
+	            let color = d3.scaleSequential().interpolator(d3.interpolateGreens);
 	            color.domain([extent[0], extent[1]]);
 	
                 d3legend
