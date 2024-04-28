@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundraising form</title>
-    <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/mentor.css')}}">
 </head>
 <body>
     <h1>Provide mentorship</h1>
     <div class="formbold-main-wrapper">
         
         <div class="formbold-form-wrapper">
-          <form action="" method="POST">
+          <form action="/store" method="POST" enctype=multipart/form-data>
               <div class="formbold-input-flex">
                 <div>
                     <input
@@ -95,7 +95,7 @@
                   Send Message
               </button>
               <button class="formbold-btn">
-                <a href="index.html">Back</a>
+                <a href="/">Back</a>
             </button>
           </form>
         </div>
