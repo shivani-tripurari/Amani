@@ -6,9 +6,7 @@
 
 This aims to help the **underprivileged in Africa** throug the **digital reforms** so they can bridge the gap and transform their lives💻🎯
 
-A web application built as a project for **All in** hackathon that helps users to start **fundraising**, **donate** to underprivilaged via **money**, **resources** or **food**, and provide **mentorship to children** of the African sub-continent.
-You can also get inspired by reading to the **inspirational tales** of individuals, tribes which shows **diversity of Africa** ! ✨
-
+A web application built as a project for All in hackathon that helps users to start fundraising, donate to the underprivileged via money, resources, or food, and provide mentorship to children of the African sub-continent. You can also get inspired by reading the inspirational tales of individuals, and tribes which show the diversity of Africa! ✨
 
 
 
