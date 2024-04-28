@@ -2,12 +2,12 @@
 # Amani 🕊️✨
 ## 🚀About the project
 
-"Amani - United in growth, Unstoppable in progress."
+**"Amani - United in growth, Unstoppable in progress."**
 
-Thia aims to help the underpriviled in Afria throug the digital reforms so they can bridge the gap and transform their lives💻🎯
+Thia aims to help the **underpriviled in Afria** throug the **digital reforms** so they can bridge the gap and transform their lives💻🎯
 
-A web application which helps users to start fundraising, donate to underprivilaged via money, resources or food, and provide mentorship to chidlren of the African sub-continent.
-You can also get inspired by reading to the inspirational tales of individuals, tribes which shows diversity of Africa ! ✨
+A web application built as a project for **All in** hackathon that helps users to start **fundraising**, **donate** to underprivilaged via **money**, **resources** or **food**, and provide **mentorship to chidlren** of the African sub-continent.
+You can also get inspired by reading to the **inspirational tales** of individuals, tribes which shows **diversity of Africa** ! ✨
 
 
 
@@ -15,12 +15,26 @@ You can also get inspired by reading to the inspirational tales of individuals, 
 
 ## Features
 
-- An interactive and live map of African sub-continent, it helps to see intact information of every country and user can dontate directly to the specific NGOs.🌍
-- Donations via Money, Resources, Food✨
-- Educational and career opportunities🎓📚
-- Become mentor and support a child👩‍🏫🧑‍🏫
-- Start Fundraising and get help💰
-- Become a volunteer and get notified of various International and National volunteering programs🫂 
+  1. For **Underprivileged** :
+     - Start a Fundraising
+     - share your story
+     - Get updated with educational and career opportunities
+  2. For people **outside Africa** :
+     - Donate via money , resources, food
+     - Become a volunteer
+     - Become a mentor
+     - Read inspirational stories
+     - Get updates of International and National programs
+
+- An **interactive and live map** of African sub-continent, it helps to see intact information of every country and user can dontate directly to the specific NGOs.🌍
+- **Donations** via Money, Resources, Food✨
+- **Educational** and **career** opportunities🎓📚
+- Become **mentor** and support a child👩‍🏫🧑‍🏫
+- Start **Fundraising** and get help💰
+- Become a **volunteer** and get notified of various International and National volunteering programs🫂
+
+  
+
 
 
 
@@ -36,7 +50,14 @@ You can also get inspired by reading to the inspirational tales of individuals, 
 
 
 
+## Tech Stack💻🚀
 
+- Flask
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
+- MongoDB
 
 ## Getting started
 
