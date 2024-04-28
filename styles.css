@@ -617,3 +617,6 @@ p span{
         background-color: #fff;
         border: 2px solid #014A3D;
     }
+    .volunteer-btn a:hover{
+        color: #014A3D;
+    }
