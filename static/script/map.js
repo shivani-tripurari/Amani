@@ -239,7 +239,7 @@
             });
         }
         function redir(){
-            window.location.href = "\\country.html";
+            window.location.href = "/somalia";
         }
         // change factor description
         function renderText() {

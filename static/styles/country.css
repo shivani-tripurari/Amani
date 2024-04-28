@@ -19,7 +19,6 @@ html,body{
 .country-container{
     position: relative;
     width: 100%;
-    height: 100vh;
 }
 .navigation{
     position: absolute;
