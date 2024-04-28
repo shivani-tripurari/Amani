@@ -331,20 +331,20 @@ p span{
     }
 
     /*______________________________________Map________________________________________*/
-    .map{
+    #map{
         position: relative;
         background-color: #fff;
         width: 100%;
         height: 100vh;
     }
-    .map h2{
+    #map h2{
         z-index: 9999;
         position: absolute;
         top: 7%;
         left: 7%;
         color: #014A3D;
     }
-    .map p{
+    #map p{
         z-index: 99;
         position: absolute;
         top: 17%;
@@ -564,7 +564,7 @@ p span{
     }
 
     /*_______________________________________Volunteer__________________________________*/
-    .volunteer{
+    #volunteer{
         background-color: white;
         border: 2px solid #014A3D;
         position: relative;
@@ -575,14 +575,14 @@ p span{
         margin-top: 20px;
         margin-bottom: 40px;
     }
-    .volunteer h2{
+    #volunteer h2{
         position: absolute;
         top: 21%;
         left: 39%;
         color: #014A3D;
         font-size: 32px;   
     }
-    .volunteer p{
+    #volunteer p{
         position: absolute;
         width: 60%;
         text-align: center;
