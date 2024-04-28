@@ -106,3 +106,15 @@ html,body{
     font-weight: 800;
     color: #00684A;
 }
+
+.tribe{
+    background-color: hsla(32, 94%, 35%, 0.89);
+}
+
+img{
+height: 50%;
+}
+
+.pointer{
+    cursor: pointer;
+}
