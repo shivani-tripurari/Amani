@@ -95,16 +95,16 @@ html,body{
 .navigation li{
     text-decoration: none;
     list-style: none;
-    padding-top: 1.1rem;
-    font-size: 16px;
+    padding-top: 0.9rem;
+    font-size: 106%;
     font-weight: 700;
     transition: all ease 0.3s;
 }
 .navigation li:hover{
     text-decoration: none;
     list-style: none;
-    padding-top: 1.1rem;
-    font-size: 16px;
+    padding-top: 0.9rem;
+    font-size: 106%;
     font-weight: 800;
     color: #00684A;
 }
