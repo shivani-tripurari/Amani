@@ -506,6 +506,10 @@ p span{
         color: #fff;
         font-size: 32px;
     }
+    .story a {
+        text-decoration: none;
+        color: white;
+    }
     .story p{
         position: absolute;
         width: 40%;
