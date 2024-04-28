@@ -4,6 +4,8 @@
 
 "Amani - United in growth, Unstoppable in progress."
 
+Thia aims to help the underpriviled in Afria throug the digital reforms so they can bridge the gap and transform their lives💻🎯
+
 A web application which helps users to start fundraising, donate to underprivilaged via money, resources or food, and provide mentorship to chidlren of the African sub-continent.
 You can also get inspired by reading to the inspirational tales of individuals, tribes which shows diversity of Africa ! ✨
 
