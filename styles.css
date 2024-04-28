@@ -446,7 +446,7 @@ p span{
 
     /*___________________________________Education__________________________________________*/
     .education{
-        background-color: #fff;
+        background-color: #014A3D;
         border: 2px solid #014A3D;
         position: relative;
         left: 3%;
@@ -454,6 +454,44 @@ p span{
         width: 95%;
         height: 80vh;
     }
+    .education h2{
+        position: absolute;
+        top: 21%;
+        left: 25%;
+        color: #fff;
+        font-size: 32px;   
+    }
+    .education p{
+        position: absolute;
+        width: 50%;
+        text-align: center;
+        top: 33%;
+        left: 27%;
+        color: #fff;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;  
+    }
+    .edu-btn{
+        position: absolute;
+        bottom: 40%;
+        left: 37%;
+    }
+    .edu-btn button{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #014A3D;
+    font-weight: 700;
+    height: 40px;
+    width: 112px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid #00684A;
+    transition: all ease 0.3s;
+    font-size: 16px;   
+    }
+ 
+
 
     /*__________________________________Know their story____________________________________*/
     
@@ -473,10 +511,46 @@ p span{
         top: 11%;
         left: 27%;
         color: #fff;
+        font-size: 32px;
+    }
+    .story p{
+        position: absolute;
+        width: 40%;
+        text-align: center;
+        top: 22%;
+        left: 28%;
+        color: #fff;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
     }
     .story img{
         height: 100%;
         width: 100%;
         object-fit: contain;
         filter:opacity(0.2)
+    }
+    .story .story-btn{
+     position: absolute;
+     bottom: 30%;
+     left: 37%;
+      
+    }
+    .story-btn button{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 700;
+    height: 40px;
+    width: 112px;
+    background-color: #00684A;
+    border-radius: 50px;
+    border: 2px solid #00684A;
+    transition: all ease 0.3s;
+    font-size: 16px;
+    }
+    .story-btn button:hover{
+        color: #fff;
+        background-color: transparent;
+        border: 2px solid #014A3D;
     }
