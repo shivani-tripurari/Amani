@@ -10,6 +10,13 @@ html,body{
     width: 100%;
     height: 100%;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h5{
+    color: #fff;
+}
 .hero{
     background-color: #fff;
     width: 100%;
@@ -97,6 +104,9 @@ html,body{
     font-size: 106%;
     font-weight: 700;
     transition: all ease 0.3s;
+}
+li a{
+    color: black;
 }
 .navigation li:hover{
     text-decoration: none;
